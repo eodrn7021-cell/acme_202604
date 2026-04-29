@@ -1,15 +1,18 @@
 .d-flex{
-  display:flex;
+  display: flex;
 }
-.flex-column {
+.flex-column{
   flex-direction: column;
 }
 .justify-content-center{
-  justify-content:center
+  justify-content: center;
 }
 .justify-content-between{
-  justify-content:space-between
+  justify-content: space-between;
 }
 .align-items-center{
-  align-items:center;
+  align-items: center;
+}
+.g-1{
+  gap:var(--base-unit);
 }
